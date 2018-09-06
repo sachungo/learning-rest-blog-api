@@ -1,4 +1,4 @@
-# Rest blog API
+# RESTful blog API
  Implemented a RESTful Blog API, as instructed in assignement 2 of `Introduction to NodeJS` EDX course.
 
 ### Testing
