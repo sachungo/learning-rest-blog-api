@@ -23,4 +23,12 @@ module.exports = {
         .isURL().withMessage(['Please provide a valid URL'])
     ];
   },
+  comments() {
+    return [
+      check('text')
+        .not().isEmpty().withMessage(['Please provide a comment text'])
+        .trim()
+        .escape()
+    ];
+  }
 };
